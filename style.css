@@ -1,0 +1,128 @@
+html {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+  text-transform: uppercase;
+  font-family: 'Playfair Display', serif;
+}
+
+nav {
+  content: " ";
+  display: block;
+  clear: both;
+  height: 60px;
+}
+
+.logo {
+  float: left;
+  margin: 20px 10px;
+}
+
+nav ul {
+  display: inline;
+  float: right;
+  margin: 20px 10px;
+}
+
+nav li {
+  display: inline;
+  text-transform: uppercase;
+  padding: 0px 10px;
+}
+
+header {
+  height: 425px;
+  position: relative;
+  display: block;
+  background: url(weightloss.png);
+  background-size: cover;
+}
+
+.header-background {
+  height: 100%;
+  display: block;
+  background: rgba(242, 242, 242, 0.5);
+}
+
+header .text {
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  padding: 5% 0% 0% 10%;
+  text-align: left;
+}
+
+.container {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.three {
+  width: 33%;
+  float: left;
+  text-align: center;
+  padding: 5% 0%;
+}
+
+section {
+  display: block;
+}
+.three .fas, .far {
+  color: white;
+}
+.shop {
+  background: #43c0f6;
+}
+
+.light-grey {
+  background: #f2f2f2;
+}
+
+.pink {
+  background: #F6E8E8;
+}
+
+.dark-pink {
+  background: #DEB8B8;
+}
+
+.yellow {
+  background: #f5ce28;
+}
+
+.blue {
+  background: #43c0f6;
+}
+
+.product-image {
+  height: 300px;
+  max-width: 300px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+#image_container {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  background: white;
+  border: red double 2px;
+}
+
+canvas {
+  margin: auto;
+  background: white;
+  border: red double 2px;
+}
+
+.instructions {
+  width: 80%;
+  margin: auto;
+}
+
+.bus-image {
+  margin-top: 20px;
+}
