@@ -1,18 +1,15 @@
 html {
-  font-family: 'Raleway', sans-serif;
-}
-
-h1 {
-  font-size: 60px;
-  text-transform: uppercase;
   font-family: 'Playfair Display', serif;
 }
+
+/*navigation*/
 
 nav {
   content: " ";
   display: block;
   clear: both;
   height: 60px;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .logo {
@@ -32,12 +29,19 @@ nav li {
   padding: 0px 10px;
 }
 
+
+/*header*/
+
 header {
   height: 425px;
   position: relative;
   display: block;
   background: url(weightloss.png);
   background-size: cover;
+}
+
+header img {
+  max-width: 400px;
 }
 
 .header-background {
@@ -54,10 +58,86 @@ header .text {
   text-align: left;
 }
 
-.container {
-  content: " ";
-  display: block;
-  clear: both;
+
+/*introduction*/
+
+
+.intro {
+  text-align: center;
+  padding: 5% 0%;
+}
+.intro h3 {
+  color: #c78585;
+}
+
+.intro-div {
+  width: 180px;
+  border-top: solid #c78585 5px;
+  margin: 10px auto;
+}
+
+/*images container*/
+
+.images article {
+  height: 200px;
+}
+
+.workout-img {
+  background: url(yogamat.png);
+  background-size: cover;
+}
+
+.food-img {
+  background: url(food.png);
+  background-size: cover;
+}
+
+.bikini-img {
+  background: url(bikini.png);
+  background-size: cover;
+}
+
+.images h3 {
+  font-size: 22px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+}
+
+.featured img {
+  max-width: 500px;
+}
+
+.featured {
+  background: #F6F7F9;
+}
+h1 {
+  font-size: 60px;
+  text-transform: uppercase;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+h3 {
+  font-size: 20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: 'Playfair Display', serif;
+}
+
+
+
+.container:after {
+  content: "";
+  display: table; 
+  clear: both; 
 }
 
 .three {
@@ -70,9 +150,41 @@ header .text {
 section {
   display: block;
 }
-.three .fas, .far {
-  color: white;
+
+.small {
+  width: 80%;
+  margin: auto;
 }
+
+.two {
+  width: 50%;
+}
+
+.two-small {
+  width: 30%;
+  text-align: center;
+}
+
+.two-big {
+  width: 70%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+.three .fas, .far {
+  color: #303030;
+  border: solid 5px #DEB8B8;
+  border-radius: 50%;
+  height: 55px;
+  width: 75px;
+  padding-top: 20px;
+}
+
 .shop {
   background: #43c0f6;
 }
@@ -97,6 +209,9 @@ section {
   background: #43c0f6;
 }
 
+.white {
+  background: #F6F7F9;
+}
 .product-image {
   height: 300px;
   max-width: 300px;
