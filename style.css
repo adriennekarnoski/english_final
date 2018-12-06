@@ -5,28 +5,56 @@ html {
 /*navigation*/
 
 nav {
-  content: " ";
-  display: block;
-  clear: both;
-  height: 60px;
+  width: 100%;
+  height: 80px;
   font-family: 'Open Sans Condensed', sans-serif;
+  position: fixed; 
+  z-index: 1;
+  top: 0; 
+  left: 0;
+  background: rgba(246, 247, 249, 0.9);
+  text-align: center;
+  text-decoration: none;
 }
 
-.logo {
-  float: left;
-  margin: 20px 10px;
+.little-logo {
+  max-height: 60px;
+  /*padding: 10px 0px 0px 20px;*/
 }
 
 nav ul {
   display: inline;
-  float: right;
-  margin: 20px 10px;
+  /*float: right;*/
+  margin: 20px;
+  padding-top: 10px;
 }
 
 nav li {
   display: inline;
   text-transform: uppercase;
   padding: 0px 10px;
+  font-size: 22px;
+  width: 100px;
+}
+
+.nav-left {
+  width: 45%;
+  display: block;
+  text-align: right;
+  padding-top: 30px;
+}
+
+.nav-right {
+  width: 45%;
+  display: block;
+  text-align: left;
+  padding-top: 30px;
+}
+
+.nav-center {
+  width: 10%;
+  display: inline-block;
+  padding-top: 10px;
 }
 
 
@@ -38,6 +66,7 @@ header {
   display: block;
   background: url(weightloss.png);
   background-size: cover;
+  margin-top: 80px;
 }
 
 header img {
@@ -58,6 +87,12 @@ header .text {
   text-align: left;
 }
 
+header a {
+  margin-left: 20%;
+  margin-top: 15%;
+  /*display: block;*/
+}
+
 
 /*introduction*/
 
@@ -76,7 +111,17 @@ header .text {
   margin: 10px auto;
 }
 
+.intro p {
+  width: 70%;
+  line-height: 26px;
+  margin: auto;
+  padding-top: 5%;
+  font-size: 18px;
+}
+
+
 /*images container*/
+
 
 .images article {
   height: 200px;
@@ -101,15 +146,158 @@ header .text {
   font-size: 22px;
   font-family: 'Open Sans Condensed', sans-serif;
   text-transform: uppercase;
+  padding-top: 5%;
 }
+
+.images p {
+  width: 80%;
+  margin: auto;
+  font-size: 16px;
+  padding-top: 5%;
+  line-height: 20px;
+}
+
+
+/*featured*/
+
 
 .featured img {
-  max-width: 500px;
+  max-width: 100%;
 }
 
-.featured {
-  background: #F6F7F9;
+.featured h2 {
+  padding-top: 5%;
+  text-align: center;
 }
+
+.featured section {
+  background: #F6F7F9;
+  height: 100%;
+}
+
+.featured article {
+  background: #F6F7F9;
+  margin: 5% 0%;
+}
+
+.featured h3 {
+  font-size: 28px;
+}
+
+.featured p {
+  width: 80%;
+  padding: 10% 0%;
+  line-height: 20px;
+}
+
+
+/*container*/
+
+
+.fruit-container {
+  height: 300px;
+  display: block;
+  /*position: relative;
+  background: url(fruit.jpg);
+  background-size: cover;*/
+}
+
+.fruit_container img {
+  max-height: 100%;
+  opacity: 0.5;
+}
+
+
+/*products*/
+
+
+.products {
+  margin-top: 80px;
+  padding-top: 5%;
+}
+
+.products div {
+  padding-bottom: 3%;
+}
+
+.products h3 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 24px;
+}
+
+.price {
+  font-weight: bolder;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.products p {
+  margin: 15px 0px;
+
+}
+.products img {
+  max-width: 80%;
+}
+
+.products section {
+  background: #F6F7F9;
+  height: 100%;
+  text-align: center;
+}
+
+.products article {
+  background: #F6F7F9;
+  margin-bottom: 5%;
+}
+
+.products .fas, .products .far {
+  color: #f2c40d;
+}
+
+.products a {
+  margin-bottom: 50px;
+}
+/*.products p {
+  width: 80%;
+  padding: 10% 0%;
+  line-height: 20px;
+}*/
+
+
+/*contact*/
+
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;   
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+.contact {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    padding-top: 120px;
+    margin: auto;
+    width: 80%;
+}
+
+
+.bold {
+  font-weight: 900;
+}
+
 h1 {
   font-size: 60px;
   text-transform: uppercase;
@@ -129,10 +317,22 @@ h3 {
 }
 
 p {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
+a:link, a:visited {
+  text-decoration: none;
+}
 
+.button {
+  font-size: 20px;
+  display: inline-block;
+  padding: 10px;
+  background: #DEB8B8;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
 
 .container:after {
   content: "";
@@ -176,14 +376,7 @@ section {
 .right {
   float: right;
 }
-.three .fas, .far {
-  color: #303030;
-  border: solid 5px #DEB8B8;
-  border-radius: 50%;
-  height: 55px;
-  width: 75px;
-  padding-top: 20px;
-}
+
 
 .shop {
   background: #43c0f6;
@@ -217,6 +410,11 @@ section {
   max-width: 300px;
   overflow: hidden;
   display: inline-block;
+}
+
+.product-description {
+  width: 80%;
+  padding: 10%;
 }
 
 #image_container {
