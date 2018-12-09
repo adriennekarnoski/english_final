@@ -3,9 +3,12 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Title</title>
+  <title>JUST FOR HER</title>
   <link href="reset.css" rel="stylesheet">
+  <link href="layout.css" rel="stylesheet">
+  <link href="modules.css" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
+  <link href="text.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans+Condensed:300|Playfair+Display|Raleway" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
@@ -15,7 +18,7 @@
     <nav class="container">
       <section class="nav-left left">
         <ul>
-          <li><span class="padded"><a href="index.html">Home</a></span></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="about.html">How it works</a></li>
         </ul>
       </section>
@@ -24,34 +27,69 @@
       </section>
       <section class="nav-right right">
         <ul>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html" id="current">Contact</a></li>
           <li><a href="shop.html">Shop</a></li>
         </ul>
       </section>
     </nav>
 
-    <section class="light-grey container contact">
-      <section class="small">
-        <h2>Contact</h2>
-        <div class="intro-div">
-        </div>
+    <section class="container contact">
+      <section class="two-big left center-text">
+        <h2>Contact Us</h2>
+        <div class="pink-line"></div>
+        <p>Have questions? Email us at: help@justforher.com and we'll be sure to get all your questions answered.</p>
         <article class="container">
           <form action="">
-
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-    <input class="button type="submit" value="Submit">
-
-  </form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="firstname" placeholder="Name">
+            <label for="email" class="input-label">Email</label>
+            <input type="text" id="email" name="email" placeholder="Email">
+            <textarea id="message" name="message" placeholder="Message" style="height:200px"></textarea>
+            <a class="button">Submit</a>
+          </form>
         </article>
+      </section>
+
+      <section class="two-small right sidebar">
+        <article class="left-text">
+          <ul class="icon-list">
+            <li><i class="fas fa-phone fa-lg"></i> (800) 367-4377</li>
+            <li><i class="fas fa-envelope fa-lg"></i> help@justforher.com</li>
+            <li><i class="fas fa-map-marker-alt fa-lg"></i> 5000 E Ocean Blvd Long Beach, CA</li>
+          </ul>
+        </article>
+        <h3 class="center-text">Hours</h3>
+        <article class="container">
+          <section class="two left right-text weekdays">
+            <ul>
+              <li><span class="bold">Monday</span></li>
+              <li><span class="bold">Tuesday</span></li>
+              <li><span class="bold">Wednesday</span></li>
+              <li><span class="bold">Thursday</span></li>
+              <li><span class="bold">Friday</span></li>
+              <li><span class="bold">Saturday</span></li>
+              <li><span class="bold">Sunday</span></li>
+            </ul>
+          </section>
+          <section class="two right left-text">
+               <ul>
+              <li>8:00AM - 8:00PM</li>
+              <li>8:00AM - 8:00PM</li>
+              <li>8:00AM - 8:00PM</li>
+              <li>8:00AM - 8:00PM</li>
+              <li>6:00AM - 8:00PM</li>
+              <li>6:00AM - 8:00PM</li>
+              <li>9:00AM - 6:00PM</li>
+            </ul>
+          </section>
+        </article>
+      <h3>Connect with us</h3>
+      <article>
+        <i class="fab fa-instagram fa-2x"></i>
+        <i class="fab fa-facebook-square fa-2x"></i>
+        <i class="fab fa-youtube fa-2x"></i>
+        <i class="fab fa-pinterest-p fa-2x"></i>
+      </article>
       </section>
     </section>
 

@@ -1,0 +1,45 @@
+/*styles for page layouts */
+
+
+section {
+  display: block;
+}
+
+.container:after {
+  content: "";
+  display: table; 
+  clear: both; 
+}
+
+.small {
+  width: 80%;
+  margin: auto;
+}
+
+.three {
+  width: 33%;
+  float: left;
+  text-align: center;
+  padding: 5% 0%;
+}
+
+.two {
+  width: 50%;
+}
+
+.two-small {
+  width: 30%;
+  text-align: center;
+}
+
+.two-big {
+  width: 70%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
