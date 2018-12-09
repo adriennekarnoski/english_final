@@ -106,6 +106,72 @@ header a {
 
 
 
+/*footer*/
+
+footer {
+  padding: 3% 0%;
+}
+
+.footer-container {
+  border-top: solid #404040 5px;
+  border-bottom: solid #404040 5px;
+}
+
+.footer-container img {
+ max-width: 300px;
+ padding: 3% 0%;
+}
+
+footer form {
+  padding-top: 5%;
+}
+
+footer input[type=text] {
+  width: 65%; 
+  display: inline-block;
+  padding: 12px;   
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 26px;
+  margin-left: 5%;
+  resize: vertical
+}
+
+footer label {
+ margin-left: 5%; 
+}
+
+footer button {
+  padding: 6px;
+  margin-top: 8px;
+  margin-left: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  background: #DEB8B8;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+footer button:hover {
+  background: #c78585;
+  color: black;
+}
+
+footer .fas {
+  color: #404040;
+  width: 40px;
+}
+
+footer li {
+  padding: 2% 0%;
+}
+
+
 
 /*introduction*/
 
@@ -322,36 +388,48 @@ header a {
 
 
 
-form {
+.contact form {
   margin-top: 10%;
 }
 
-input[type=text] {
+.contact input[type=text], textarea {
+  display: inline-block;
+  padding: 12px;   
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; 
+/*  margin-top: 6px; 
+  margin-bottom: 26px;
+  margin-left: 1%;*/
+  resize: vertical
+}
+
+.contact input[type=text] {
     width: 42%; 
-    display: inline-block;
+/*    display: inline-block;
     padding: 12px;   
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box; 
+    box-sizing: border-box;*/ 
     margin-top: 6px; 
     margin-bottom: 26px;
     margin-left: 1%;
-    resize: vertical
+/*    resize: vertical*/
 }
 
 .input-label {
     margin-left: 5%;
 }
 
-textarea {
+.contact textarea {
     width: 100%; 
-    padding: 12px;   
+/*    padding: 12px;   
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box; 
+    box-sizing: border-box; */
     margin-top: 15px; 
     margin-bottom: 16px;
-    resize: vertical;
+    /*resize: vertical;*/
 }
 
 form a {
