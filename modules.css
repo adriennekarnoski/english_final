@@ -81,7 +81,7 @@ header {
 }
 
 header img {
-  max-width: 400px;
+  max-width: 450px;
 }
 
 .header-background {
@@ -94,14 +94,8 @@ header img {
   position: absolute;
   width: 90%;
   height: 90%;
-  padding: 10% 0% 0% 10%;
+  padding: 8% 0% 0% 8%;
   text-align: left;
-}
-
-header a {
-  margin-left: 20%;
-  margin-top: 20%;
-  /*display: block;*/
 }
 
 
@@ -194,7 +188,9 @@ footer li {
   font-size: 18px;
 }
 
-
+.intro a {
+  margin-top: 5%;
+}
 
 
 /*images container*/

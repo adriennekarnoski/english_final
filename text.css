@@ -32,6 +32,10 @@ a:hover {
   color: #c78585;
 }
 
+a {
+  cursor: pointer;
+}
+
 .bold {
   font-weight: 900;
 }
