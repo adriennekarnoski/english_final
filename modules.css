@@ -383,7 +383,17 @@ footer li {
   background-repeat: no-repeat;
 }
 
+.about-container {
+  margin-top: 15%;
+}
 
+.about img {
+  max-width: 60%;
+}
+
+.about h3 {
+  font-size: 24px;
+}
 /*contact*/
 
 
