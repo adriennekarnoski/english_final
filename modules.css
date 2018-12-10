@@ -379,9 +379,10 @@ footer li {
 /*about*/
 
 .about {
-  background: url(update.png);
+  background: url(about-background.png);
   background-size: cover;
-  height: 100vh;
+  /*height: 100vh;*/
+  height: 100%;
   width: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
