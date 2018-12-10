@@ -303,6 +303,9 @@ footer li {
 /*shopping page*/
 
 
+.products {
+  padding-bottom: 5%;
+}
 
 .products h2 {
   padding-top: 15%;
@@ -376,15 +379,27 @@ footer li {
 /*about*/
 
 .about {
-  background: url(contact-background.png);
-  background-size: contain;
+  background: url(update.png);
+  background-size: cover;
   height: 100vh;
   width: 100%;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .about-container {
-  margin-top: 15%;
+  margin: 15% 0%;
+  padding-top: 5%;
+}
+
+.about-container section {
+  padding: 5% 0%;
+  width: 80%;
+  margin: auto;
+}
+
+.about-container article {
+  padding: 2% 0%;
 }
 
 .about img {
@@ -393,6 +408,29 @@ footer li {
 
 .about h3 {
   font-size: 24px;
+  padding-bottom: 2%;
+}
+
+.about p {
+  padding-bottom: 1%;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.about .fas {
+  margin-top: 10%;
+}
+
+.about-container .fa-venus {
+  color: #c78585;
+}
+
+.about .fa-flask {
+  color: #404040;
+}
+
+.about .fa-capsules {
+  color: #DEB8B8;
 }
 /*contact*/
 
