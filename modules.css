@@ -266,7 +266,7 @@ footer li {
 
 .featured p {
   width: 80%;
-  padding: 10% 0%;
+  padding-top: 5%;
   line-height: 20px;
 }
 
@@ -275,7 +275,19 @@ footer li {
   padding: 10%;
 }
 
+.featured a {
+  margin-top: 10%;
+}
 
+.featured h4 {
+  text-transform: uppercase;
+  color: #404040;
+}
+
+.warning {
+  font-size: 12px;
+  color: #bfbfbf;
+}
 /*container*/
 
 
